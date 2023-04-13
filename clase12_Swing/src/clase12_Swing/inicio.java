@@ -1,5 +1,6 @@
 package clase12_Swing;
 
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
@@ -45,7 +46,11 @@ public class inicio {
 			System.out.println("Error");
 		} */
 		//conexion2();
-		conexion3();
+		//conexion3();
+		
+		//gui00 pantalla1 = new gui00();
+		//gui01 pantalla2 = new gui01();
+		gui04 pantalla3 = new gui04();
 	}	
 	/*	public static void conexion2() {
 			try {
@@ -66,7 +71,7 @@ public class inicio {
 				System.out.println(e.getMessage());
 			}
 		*/
-		
+		/*
 		public static void conexion3() {
 			
 		try {
@@ -86,6 +91,7 @@ public class inicio {
 			sentencia3.executeUpdate();
 		}catch(Exception e) {
 			System.out.println("ERROR" + e);
-		}
+		} */
 			
-}}
+//}
+}
