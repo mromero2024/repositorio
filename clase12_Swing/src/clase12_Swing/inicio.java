@@ -44,7 +44,8 @@ public class inicio {
 		}catch(ClassNotFoundException | SQLException e){
 			System.out.println("Error");
 		} */
-	
+		conexion2();
+	}	
 		public static void conexion2() {
 			try {
 				metodo2_insert conn = new metodo2_insert();
@@ -53,10 +54,10 @@ public class inicio {
 				String insertquery = "INSERT INTO empleado(DNI,NOMBRE,APELLIDO,NACIONALIDAD,DEPTO)" + "VALUES" + "(?,?,?,?,?)";
 				PreparedStatement ps = conexion.prepareStatement(insertquery);
 				ps.setInt(1, 33214110);
-				ps.setString(2, "Claudio");
-				ps.setString(3, "Caniggia");
-				ps.setString(4, "Argentina");
-				ps.setString(5, "Ventas");
+				ps.setString(2, "AGUSTIN");
+				ps.setString(3, "TAPIA");
+				ps.setString(4, "ARGENTINA");
+				ps.setString(5, "CONTABILIDAD");
 				
 				ps.executeUpdate();
 				System.out.println("REGISTRO EXISTOSO" + "\n");
@@ -64,7 +65,7 @@ public class inicio {
 				System.out.println(e.getMessage());
 			}
 		
-		}
+		
 		
 
 }}
