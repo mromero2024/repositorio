@@ -44,9 +44,10 @@ public class inicio {
 		}catch(ClassNotFoundException | SQLException e){
 			System.out.println("Error");
 		} */
-		conexion2();
+		//conexion2();
+		conexion3();
 	}	
-		public static void conexion2() {
+	/*	public static void conexion2() {
 			try {
 				metodo2_insert conn = new metodo2_insert();
 				Connection conexion = conn.getConnection();
@@ -64,8 +65,27 @@ public class inicio {
 			}catch(SQLException e) {
 				System.out.println(e.getMessage());
 			}
+		*/
 		
-		
-		
-
+		public static void conexion3() {
+			
+		try {
+			metodo2_insert con = new metodo2_insert();
+			Connection conexion = con.getConnection();
+			
+			String insertquery= "insert into empleado(DNI,NOMBRE,APELLIDO,NACIONALIDAD,DEPTO) VALUES(25874777,'JUAN','PEREZ','ARGENTINO','GERENCIA')";
+			String updatequery = "UPDATE empleado SET DNI = 55111222, NOMBRE= 'ROMAN', APELLIDO ='RIQUELME'" + "WHERE idEmpleado = 9";
+			String deletequery = "DELETE FROM empleado WHERE idEmpleado in (8)";
+			
+			PreparedStatement sentencia1 = conexion.prepareStatement(insertquery);
+			PreparedStatement sentencia2 = conexion.prepareStatement(updatequery);
+			PreparedStatement sentencia3 = conexion.prepareStatement(deletequery);
+			
+			//sentencia1.executeUpdate();
+			//sentencia2.executeUpdate();
+			sentencia3.executeUpdate();
+		}catch(Exception e) {
+			System.out.println("ERROR" + e);
+		}
+			
 }}
