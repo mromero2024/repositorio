@@ -5,13 +5,20 @@ import java.util.Arrays;
 
 
 public class inicio {
-
+	
 	
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		
+		//resultados partido1 = new resultados();
+		//pronosticos ronda1 = new pronosticos();
+		rutas ruta1 = new rutas("C:\\Users\\mromero\\Desktop\\Argentina Programa\\tareas\\integrador\\equipos.txt", "C:\\Users\\mromero\\Desktop\\Argentina Programa\\tareas\\integrador\\pronosticos.txt");
 	
-		try{
+		
+		
+		
+	/*	try{
 			FileReader archivo = new FileReader("C:\\Users\\mromero\\Desktop\\Argentina Programa\\tareas\\integrador\\equipos.txt");
 			if(archivo.ready()) {
 			BufferedReader lector = new BufferedReader(archivo);
@@ -24,16 +31,20 @@ public class inicio {
 			String resultado;
 			String prediccion = "ARGENTINA";
 			
-			if(golesE1>golesE2) {
-				resultado=equipo1;
+			
+			
+	/*		if(golesE1>golesE2) {
+				 resultado=equipo1;
+				
 			}else if(golesE1<golesE2){
 				resultado=equipo2;
 			}else {
 				resultado="EMPATE";
 			}
+			
 			System.out.println(resultado);
 			
-			System.out.println(prediccion);
+		/*	System.out.println(prediccion);
 			if(resultado == prediccion) {
 				System.out.println("ganaste");
 			}else {
@@ -48,12 +59,14 @@ public class inicio {
 			
 				catch(Exception e) {
 			System.out.println("algo salio mal" + e.getMessage());
-		}
+		}*/
 		
+		
+
 		
 	}}
 				
-		
+
 		
 	
 
