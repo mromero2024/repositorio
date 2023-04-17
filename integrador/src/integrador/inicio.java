@@ -13,8 +13,8 @@ public class inicio {
 		
 		//resultados partido1 = new resultados();
 		//pronosticos ronda1 = new pronosticos();
-		rutas ruta1 = new rutas("C:\\Users\\mromero\\Desktop\\Argentina Programa\\tareas\\integrador\\equipos.txt", "C:\\Users\\mromero\\Desktop\\Argentina Programa\\tareas\\integrador\\pronosticos.txt");
-	
+		//rutas ruta1 = new rutas("C:\\Users\\mromero\\Desktop\\Argentina Programa\\tareas\\integrador\\resultadosPartidos.txt", "C:\\Users\\mromero\\Desktop\\Argentina Programa\\tareas\\integrador\\pronosticos.txt");
+		lineas nlineas = new lineas("C:\\Users\\mromero\\Desktop\\Argentina Programa\\tareas\\integrador\\resultadosPartidos.txt", "C:\\Users\\mromero\\Desktop\\Argentina Programa\\tareas\\integrador\\pronosticos.txt");
 		
 		
 		
