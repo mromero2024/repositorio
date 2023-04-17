@@ -52,11 +52,11 @@ public lineas(String rResultados, String rPronostico) {
 				
 				if(resultadoPartido.equals(pronostico1)) {
 					puntaje1++;
-					System.out.println("Tu Pronostico fue: "+ " " + pronostico1 + "\n" + "Ganaste 1 punto" + "\n");
+					System.out.println("Tu Pronostico fue: "+ " " + pronostico1 + "\n" + "/////Ganaste 1 punto/////" + "\n");
 					System.out.println("-----------------------");
 					
 				}else{
-					System.out.println("Tu Pronostico: "+ " " + pronostico1 + "\n" + "Perdiste" + "\n");
+					System.out.println("Tu Pronostico: "+ " " + pronostico1 + "\n" + "/////Perdiste/////" + "\n");
 					System.out.println("-----------------------");
 					
 					}
@@ -83,11 +83,11 @@ public lineas(String rResultados, String rPronostico) {
 				
 				if(resultadoPartido.equals(pronostico2)) {
 					puntaje1++;
-					System.out.println("Tu Pronostico fue: "+ " " + pronostico2 + "\n" + "Ganaste 1 punto");
+					System.out.println("Tu Pronostico fue: "+ " " + pronostico2 + "\n" + "/////Ganaste 1 punto/////");
 					System.out.println("-----------------------");
 					
 				}else{
-					System.out.println("Tu Pronostico: " + pronostico2 + "\n" + "Perdiste" + "\n");
+					System.out.println("Tu Pronostico: " + pronostico2 + "\n" + "/////Perdiste/////" + "\n");
 					System.out.println("-----------------------");
 					
 					}
@@ -113,11 +113,11 @@ public lineas(String rResultados, String rPronostico) {
 						
 						if(resultadoPartido.equals(pronostico3)) {
 							puntaje1++;
-							System.out.println("Tu Pronostico fue: "+ " " + pronostico3 + "\n" + "Ganaste 1 punto" + "\n");
+							System.out.println("Tu Pronostico fue: "+ " " + pronostico3 + "\n" + "/////Ganaste 1 punto/////" + "\n");
 							System.out.println("-----------------------");
 							System.out.println("PUNTAJE TOTAL: " + puntaje1);
 						}else{
-							System.out.println("Tu Pronostico: "+ "\n" + pronostico3 + "\n" + "Perdiste" + "\n");
+							System.out.println("Tu Pronostico: "+ "\n" + pronostico3 + "\n" + "/////Perdiste/////" + "\n");
 							System.out.println("-----------------------");
 							System.out.println("PUNTAJE TOTAL: " + puntaje1);
 							} 
